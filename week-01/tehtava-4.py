@@ -1,16 +1,11 @@
 import random
 
-a = random.randint(0, 100)
-b = random.randint(0, 100)
+a = random.randint(0, 10)
+b = random.randint(0, 10)
 
-print(f'a: {a}')
-print(f'b: {b}')
+def sum(a, b):
+    return a + b
 
-if(a > b):
-    print("Number A is bigger than B")
-
-elif(b > a):
-    print("Number B is bigger than A")
-
-else:
-    print("Numbers are equal")
+print(f'Number A: {a}')
+print(f'Number B: {b}')
+print(f'Sum of numbers {a} and {b} is {sum(a, b)}')

@@ -1,5 +1,5 @@
-a = input('Number A: ')
-b = input('Number B: ')
+a = input('Enter number A: ')
+b = input('Enter number B: ')
 
 if(a > b):
     print("Number A is bigger than B")
